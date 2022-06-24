@@ -14,7 +14,7 @@ import warnings
 warnings.filterwarnings("ignore")
 load_dotenv()
 # Get the API token from the .env file.
-DISCORD_TOKEN = os.getenv("discord_token")
+DISCORD_TOKEN = "Your Token"
 intents = discord.Intents().all()
 client = discord.Client(intents=intents)
 bot = commands.Bot(command_prefix='!', intents=intents)
